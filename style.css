@@ -7,81 +7,97 @@ body {
 	background-repeat: no-repeat;
 	font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size:100%;
-	text-align: center;
-}
-h1 {
-	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-	color:#C2E0FF;
-	text-align:center;
-	font-size:3.5em;
-	font-weight:100; 
-}
-span#i {
-	font-style: italic;
-}
-span#right-align {
-	float: right;
-}
-span#left-align {
-	float: left;
-}
-.bold {
-	font-weight: bold;
-}
-.merge-col2 {
-
 }
 
-/* Index Section */
-#qoute {
-	color: black; 
-	font-size: .8em;
-	font-style: italic;
-	font-weight: bold;
-}
-
-#links {
-	background-color: black;
-	list-style-type: none;
-	color:white;
-	font-weight:normal;
-	padding: .7em;
-
-}
-#links li {
-	display: inline;
-	margin-right:.8em;
-	margin-left: .8em;
-}
-#links a {
-	text-decoration: none;
-	color:white;
-}
-#links a:hover {
-	color:teal;
-}
-
-.center {
-	/*background-color: red;*/
-	margin-left: auto;
-	margin-right: auto;
-}
-#twitter {
-	float: left;
-}
-#trademark {
-	font-size:0.7em;
-}
-#linkedin {
-	float: right;
-}
-
-#bg1 {
+.bg1 {
 	background-color: white;
 }
-#bg2 {
+.bg2 {
 	background-color: red;
 }
+.italic {
+	font-style: italic;
+}
+.right-align {
+	float: right;
+}
+.left-align {
+	float: left;
+}
+
+
+/* INDEX.html */
+#header {
+	
+}
+	#header h1 {
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		color:#C2E0FF;
+		text-align:center;
+		font-size:3.3em; 
+		font-weight: normal;
+	}
+#content {
+	border: thin none yellow;
+	text-align: center;
+}
+	#content #slides {
+	}
+	#content #qoute {
+		text-align: center;
+		font-style: italic;
+		font-weight: normal;
+		color: black; 
+		font-size: 1em;
+	}
+
+#nav{
+	background-color: black;
+	color:white;
+	text-align: center;
+	font-size: 1.1em;
+}
+	#nav ul {
+		border: thin none red;
+		padding: .4em 0em;
+	}
+		#nav li {
+			border: thin none yellow;
+			display: inline;
+			padding-right: .9em;
+			padding-left: .9em;
+		}
+			#nav li a {
+				color: white;
+				text-decoration: none;
+			}	
+			#nav li a:hover {
+				color:teal;
+			}
+#footer {
+	border: 2px none red;
+	text-align: center;
+	margin-top: -1em;
+}
+	#footer ul {
+		vertical-align: text-top;
+		border:2px none black;
+		padding:0;
+		margin: 0;
+	}
+	#footer li {
+		vertical-align: top;
+		display: inline;
+	}
+		#footer li a#twitter {
+			position: relative;
+			bottom:.5em;
+
+		}
+		#footer li#trademark {
+			font-size: .9em;
+		}
+
 
 /* Research Section */
 #research_table {
