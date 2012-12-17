@@ -1,0 +1,252 @@
+/* Style sheet for talhaansari.com
+
+/* Common Theme Settings */
+
+.bg1 {
+	background-color: white;
+}
+.bg2 {
+	background-color: red;
+}
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+.right-align {
+	float: right;
+}
+.left-align {
+	float: left;
+}
+#img-construction {
+	width: 800px;
+	height: 300px;
+}
+
+body {
+	border: thin none yellow;
+	background-color: #25587E;
+	font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size:100%;
+	margin: 0;
+	text-align: center;
+} 
+#header {
+	vertical-align: text-center;
+}
+	#header h1 {
+		border: thin none yellow;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		color:#C2E0FF;
+		text-align:center;
+		font-size:4em; 
+		font-weight: normal;
+		margin-top: .5em;
+	}
+
+	#header h2 {
+		border: thin none yellow;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		color:#222222;
+		text-align:center;
+		font-size:2em; 
+		font-weight: normal;
+	}
+
+#content {
+	margin-top: 2em;
+}
+
+#home #content {
+	border: thin none yellow;
+	text-align: center;
+}
+	#home #content #slides {
+	}
+	#home #content #qoute {
+		text-align: center;
+		color: black; 
+		font-size: .9em;
+	}
+
+
+	/* ABOUT ME */
+#aboutme #content {
+		border: thin none yellow;
+		text-align: left;
+	}
+	#aboutme #content #info{
+		border: thin none black;
+		text-align: left;
+		background-color: #C2E0FF;
+		margin: auto 7%;
+		padding: 1em;
+		min-height: 50.8%;
+	}
+	#aboutme #content #pic {
+		border: thin solid black;
+		width: 250px;
+		height: 300px;
+		max-width: 100%;
+		margin: 1em auto auto 1em;
+		float: right;
+	}
+
+/* Research */
+#research #content {
+}
+	#research #content #info{
+		border: thin none black;
+		text-align: left;
+		background-color: #C2E0FF;
+		margin: auto 7%;
+		padding: 2em;
+	}
+
+	#research #content #info h3 {
+		text-align: center;
+	}
+	#research #content #qoute {
+		text-align: center;
+		color: black; 
+		font-size: .9em;
+	}
+
+	#research #content #info #img-cover,#img-schematic,#img-result1,#img-result2,#img-result3 {
+		border: thin solid black;
+		margin-left:  auto;
+		margin-right: auto;
+		text-align: center;
+		width: 60%;
+		max-width: 80%;
+		height: 350px;
+	}
+		#research #content img{
+			width: 100%;
+			height: 100%;
+		}
+	#research #content #info #abstract {
+		margin: auto 2em auto 2em;
+	}	
+	
+	
+	
+
+
+#footer {
+	border: thin none red;
+	margin: 30px 0px;
+	text-align: center;
+}
+	ul#nav{
+		background-color: black;
+		color:white;
+		text-align: center;
+		font-size: 1.1em;
+		padding: .4em 0em;
+		margin: 0;
+		}
+			ul#nav li {
+				border: thin none yellow;
+				display: inline;
+				padding-right: .9em;
+				padding-left: .9em;
+			}
+				ul#nav li a {
+					color: white;
+					text-decoration: none;
+				}	
+				ul#nav li a:hover {
+					color:teal;
+				}
+	ul#last {
+		border: thin none red;
+		text-align: center;
+		height: 1.5em;
+		margin: .5em 0 0 0;
+
+	}
+		ul#last li {
+			display: inline;
+			vertical-align: top;
+			margin: 0 0em;
+
+		}
+			#last li#twitter {
+				position: relative;
+				bottom: 5px;
+			}
+			#last li#trademark {
+				font-size: .9em;
+			}
+			#last li#linkedin {
+				position: relative;
+				bottom: 3px;
+			}
+
+
+/* Research Section 
+#research_table {
+	border: .2em none black ;  
+	border-bottom: none;
+	width: 80%;
+	padding: .2em;
+	background-color: #C2E0FF;
+	font-size: 1.1em;
+	
+}
+
+#research_trow {
+	vertical-align: text-top;
+	padding: 1em .5em .5em .5em;
+	height: auto;
+}
+
+#research_tdata {
+	border-style: 1em solid black;
+	vertical-align: text-top;
+	padding: 1em .5em .5em .5em;
+	width: 50%;
+}
+#research_tdata_r {
+	padding: 1em .5em .5em .5em;
+	width: 50%;
+	height: 100%;
+	min-width: 30%;
+	max-width: 70%;
+
+}
+#merge {
+	width:100%;
+	vertical-align: text-top;
+	padding: 1em .5em .5em .5em;
+}
+#research_img {
+	width: 100%;
+	height: auto;
+}
+.resonance-img {
+	width:60%;
+	height:auto;
+}
+/*
+
+#my_pic {
+	width: 20%;
+	margin: auto auto auto 10%;
+	float: left;
+	padding-right: 0;
+	border-style: solid;
+	border-width: .1em;
+}
+#my_info {
+	text-align: left;
+	margin: auto 10% auto 31%;
+	padding: .7em;
+	background-color: #A2C0FF;
+	border-style: solid;
+	border-width: .1em;
+	}
+	*/

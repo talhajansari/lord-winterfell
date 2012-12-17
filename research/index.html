@@ -1,47 +1,82 @@
-<!-- RESEARCH -->
-
 <html>
 	<head>
 		<title>talha ansari. research</title>
-		<link rel="stylesheet" type="text/css" href="../style.css">
+		<link rel="stylesheet" type="text/css" href="../styles/style.css">
 	</head>
-	<body>
-		<h1>talha ansari.</h1>
-		<h2>Research</h2>
-		<p id="qoute">The most beautiful thing we can experience is the mysterious. It is the source of all true art and true science. <br>- Albert Einstein</p>
-
-		<table id="research_table" class="center">
-			<tr id="research_trow">
-				<td id="research_tdata">
-					<h3>Curious cases of the SR830 Lock-In Amplifiers</h3>
-					<p>A lock in amplifier is a critical component in scientific research. The CERN experiments, for example, use hundreds of these instruments. The implications, therefore, are large if a particular lock-in amplifier diverges from its expected behavior. The SR830 Digital Lock-In Amplifier by SRS, one of the pioneers in the <span id="i">digitized</span> lock-in amplification, showed signs of such peculiarity.</p>
-					<p> In my Physics thesis, under supervision of <a href="http://www.middlebury.edu/academics/physics/faculty/node/21121" target="_blank">Prof. Jeffrey S. Dunham</a>, I designed and conducted experiments to document and understand these deviations. The research had three major components. First, I studied the theoretical basis of lock-in amplification (phase-sensitive multiplication) and the algorithms used in the SR830 model. Second, I designed and built a comprehensive LabVIEW program to conduct the experiment with minimal human interaction. This was necessary as each run took 4 to 5 days to complete, and needed an automatic troubleshooting and recovery mechanism in case of equipment failures (which were quite often).  Third, I built a theoretical lock-in amplifier using the computational power of Mathematica, and compared it with the actual data gathered from the SRS830 experiments. Comparisons revealed that under certain settings, the SR830 output showed oscillatory deviations from its theoretical output, as shown in the resonance plots presented below.</p>
+	<body id="research">
+		<div id="header">
+			<h1>talha ansari.</h1>
+			<h2>Research</h2>
+		</div>
+		<div id="content">
+			<div id="info"> 
+				<p id="qoute" class="italic">
+					The most beautiful thing we can experience is the mysterious. It is the source of all true art and true science - Albert Einstein
 					<br>
-					<p><span class="bold">Abstract:</span> The project documents and explores the oscillatory deviations of the SR830 lock-in amplifier output from a Butterworth-filter based theoretical model. A LabVIEW program is developed for experiment control and data acquisition. Resonance response plots at the reference frequency of 32 765.00 Hz at time constants of 1 s, 10 s, and 30 s and filter roll-off settings of 6, 12, 18, and 24 dB/octave, are obtained and compared with the resonance plots of an ideal butter-worth filter. We find that there is a strong evidence of non-mitigating oscillatary deviation of the SR830 output from its theory at 30 s time constant and 24 dB/octave filter roll-off. We further find that the oscillations in the SR830 are periodic, comprising of several frequencies close to the harmonics of the reference and the lock-in amplifier input frequency.</p>
-
-				</td>
-				<td id="research_tdata_r">
-					<br> <br> <br>
-					<img src="apparatus_schematic.png" id="research_img"/>
-					<br> <span id="left-align">Schematic diagram of the appararus.</span>
-					<br> <br> <br>
-					<img src="apparatus.jpg" id="research_img"/>
-					<br> <span id="right-align">Experiment appararus during a live experiment.</span> <br>
-				</td>
-		</table>
-		<br>
-		<div id="research_table" class="center">
-			<h2>Results</h2>
-			<br>
-		<img src="resonance_10s.png" class="resonance-img"/>
-		<p></p> <br>
-		<img src="resonance_30sa.png" class="resonance-img"/>
-		<p></p> <br>
-		<img src="resonance_30sb.png" class="resonance-img"/>
-		<p></p> <br>
-	</div>
+					<br>
+				</p>
+				<h3>
+					Curious cases of the SR830 Lock-In Amplifiers
+				</h3>
+				<div class="italic" id="abstract">
+					<p> 
+						<span class="bold">Abstract:</span> The project documents and explores the oscillatory deviations of the SR830 lock-in amplifier output from a Butterworth-filter based theoretical model. A LabVIEW program is developed for experiment control and data acquisition. Resonance response plots at the reference frequency of 32 765.00 Hz at time constants of 1 s, 10 s, and 30 s and filter roll-off settings of 6, 12, 18, and 24 dB/octave, are obtained and compared with the resonance plots of an ideal butter-worth filter. We find that there is a strong evidence of non-mitigating oscillatary deviation of the SR830 output from its theory at 30 s time constant and 24 dB/octave filter roll-off. We further find that the oscillations in the SR830 are periodic, comprising of several frequencies close to the harmonics of the reference and the lock-in amplifier input frequency.
+					</p>
+				</div>
+				<div id="img-cover">
+					<img src="apparatus.jpg"/>
+				</div>
+					<br>
+					<p>
+					<span class="bold">Description: </span> A lock in amplifier is a critical component in scientific research. The CERN experiments, for example, use hundreds of these instruments. The implications, therefore, are large if a particular lock-in amplifier diverges from its expected behavior. The SR830 Digital Lock-In Amplifier by SRS, one of the pioneers in the <span id="i">digitized</span> lock-in amplification, showed signs of such peculiarity.
+					<br>
+					<br>
+					In my Physics thesis, under supervision of <a href="http://www.middlebury.edu/academics/physics/faculty/node/21121" target="_blank">Prof. Jeffrey S. Dunham</a>, I designed and conducted experiments to document and understand these deviations. The research had three major components. First, I studied the theoretical basis of lock-in amplification (phase-sensitive multiplication) and the algorithms used in the SR830 model. Second, I designed and built a comprehensive LabVIEW program to conduct the experiment with minimal human interaction. This was necessary as each run took 4 to 5 days to complete, and needed an automatic troubleshooting and recovery mechanism in case of equipment failures (which were quite often).  Third, I built a theoretical lock-in amplifier using the computational power of Mathematica, and compared it with the actual data gathered from the SRS830 experiments. Comparisons revealed that under certain settings, the SR830 output showed oscillatory deviations from its theoretical output, as shown in the resonance plots presented below.
+					<br>
+					<br>
+				</p>
+				<div id="img-schematic">
+					<img src="apparatus_schematic.png" />
+				</div>
+				<p> 
+					<span class="bold">Results:</span> The following resonance plots have been obtained. Solid coloured lines correspond to the output of a theoretical SR830 lock-in amplifier, and discrete colored points represent the actual SR830 output data obtained. It can be seen how, under 30s time constant and a large roll-off setting, the output deviates from the theory at the ednges of the plots.
+					<br>
+				</p>
+				<br>
+				<div id="img-result1">
+					<img src="resonance_10s.png" />
+				</div>
+				<br>
+				<div id="img-result2">
+					<img src="resonance_30sa.png" />
+				</div>
+				<br>
+				<div id="img-result3">
+					<img src="resonance_30sb.png" />
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<ul id="nav">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../whoistalha/">Who is Talha?</a></li>
+					<li><a href="../research/" >Research</a></li>
+					<li><a href="../Ansari_CV_2012.pdf" target="_blank" >CV</a></li> 
+					<li><a href="../contactme/">Contact</a></li>
+				</ul>
+				<ul id="last">
+					<li id="twitter">
+						<a href="https://twitter.com/TalhaJAnsari" class="twitter-follow-button" data-show-count="false">Follow @TalhaJAnsari</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</li>
+					<li id="trademark"> 
+						Talha Ansari 2012. All Rights Reserved.
+					</li>
+					<li id="linkedin"> 
+						<a href="http://www.linkedin.com/in/talhajansari" target="_blank">
+						<img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x25.png" width="160" height="25" border="0" alt="View Talha Ansari's profile on LinkedIn"> </a>
+					</li>
+				</ul>
+		</div>
 	</body>
-
-
-
 </html>
