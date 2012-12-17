@@ -131,8 +131,17 @@ body {
 		margin: auto 2em auto 2em;
 	}	
 	
-	
-	
+
+	/* CONTACT ME */
+#contactme #content {
+	text-align: center;
+}
+
+#contactme #content #form {
+	border: thin solid red;
+	margin: 0 auto;
+	width: 300px;
+}
 
 
 #footer {
