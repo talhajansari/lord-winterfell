@@ -138,7 +138,7 @@ body {
 }
 
 #contactme #content #form {
-	border: thin solid red;
+	border: thin none red;
 	margin: 0 auto;
 	width: 300px;
 }
